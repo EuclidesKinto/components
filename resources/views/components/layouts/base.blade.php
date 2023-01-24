@@ -11,7 +11,10 @@
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="min-h-screen w-full items-center justify-center w-full flex">
+    <body class="min-h-screen  w-full flex items-start container mx-auto">
+        <x-header
+            logo="logo.png"
+        ></x-header>
         {{$slot}}
     </body>
 </html>
